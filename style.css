@@ -1,0 +1,166 @@
+
+
+body {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(circle, rgba(162, 143, 255, 0.989) 0%, rgb(0, 0, 0) 87%);   
+}
+
+.contenant { 
+    display: grid;
+    grid-template-areas: "a a a b"
+                         "c d e f"
+                         "g h i j"
+                         "k l m n"
+                         "o p q r"
+                         "s t t v"
+                         "s t t v"
+                         "u u u u";
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows:  10% repeat(5, 15%);    
+    height: 75%;
+    width: 75%;
+    column-gap: 5px;
+    row-gap: 10px;
+}
+
+.item { 
+    display: flex;
+    background-color: lightgray;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 5px black;
+}
+
+#a { 
+    grid-area: a;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.fill img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+img:hover{
+    transform:scale(1.1);
+}
+
+#b { 
+    grid-area: b;
+}
+
+#c { 
+    grid-area: c;
+}
+
+#d { 
+    grid-area: d;
+}
+
+#e { 
+    grid-area: e;
+}
+
+#f { 
+    grid-area: f;
+}
+
+#g { 
+    grid-area: g;
+}
+
+#h { 
+    grid-area: h;
+}
+
+#i { 
+    grid-area: i;
+}
+
+#j{
+    grid-area: j;
+}
+#k { 
+    grid-area: k;
+}
+#l{
+    grid-area: l;
+}
+#m{
+    grid-area:m;
+}
+#n{
+    grid-area:n;
+}
+#o{
+    grid-area: o;
+}
+
+#p{
+    grid-area: p;
+}
+#q{
+    grid-area: q;
+}
+#r{
+    grid-area: r;
+}
+
+#s{
+    grid-area: s;
+}
+#t{
+    grid-area: t;
+}
+
+#v{
+    grid-area: v;
+}
+#u{
+    grid-area: u;
+}
+
+#s, #t, #v {
+    overflow: scroll;
+    justify-content: center;
+    align-items: center;
+}
+
+#gitt{
+    color: purple;    
+}
+
+.inputing{
+    display: block;
+    width:100%;
+    height:100%;
+    background-color: darkmagenta;
+    color:white;
+    font-weight: bold;
+}
+#screen{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: lightgray;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+#clear{
+    background-color: orange;
+    color: black;
+}
