@@ -39,5 +39,18 @@
         }
 
 
+        function affichageErreur(){
+            try{
+                eval(val);
+            }catch(error){
+                let messageErreur = "Erreur";
+                affiche(messageErreur);
+        }
+
+        }   
+
+
+
+
 document.getElementById('plus').addEventListener('click', affiche('+'));
 
