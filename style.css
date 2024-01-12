@@ -164,3 +164,7 @@ img:hover{
     width: 100%;
     height: 100%;
 }
+
+.inputing:hover, #clear:hover{
+    background-color: darkgrey;
+}
