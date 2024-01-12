@@ -1,6 +1,5 @@
 
         
-//stollen functions ///////////////////////////////////////
         function affiche(val){
 
             document.getElementById('resulta').value += val
@@ -28,3 +27,4 @@
         }
 
 
+document.getElementById('plus').addEventListener('click', affiche('+'));
