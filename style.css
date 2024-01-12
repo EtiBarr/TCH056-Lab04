@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: radial-gradient(circle, rgba(162, 143, 255, 0.989) 0%, rgb(0, 0, 0) 87%);   
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.989) 0%, rgb(0, 0, 0) 87%);   
 }
 
 .contenant { 
@@ -17,7 +17,7 @@ body {
                          "k l m r"
                          "o o p q";
     grid-template-columns: repeat(4, 25%);
-    grid-template-rows:  10% repeat(5, 15%);    
+    grid-template-rows:  10% repeat(6, 16.66%);    
     height: 75%;
     width: 75%;
     column-gap: 5px;
@@ -31,8 +31,19 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    border-radius: 25px;
+    border-radius: 100px;
     box-shadow: 5px black;
+}
+
+.item-result{
+    display: flex;
+    background-color: black;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-shadow: 5px black;
+
 }
 
 #a { 
@@ -150,20 +161,13 @@ img:hover{
     font-weight: bold;
 }
 
-.inputing:hover{
-    background-color: lightgray;
-}
-
-.orangish:hover, .greyish:hover, #clear:hover{
-    background-color: white;
-}
-
 #resulta{
     display: block;
     width: 100%;
     height: 100%;
-    background-color: lightgray;
-    text-align: center;
+    background-color: black;
+    color:white;
+    text-align: right;
     font-weight: bold;
     font-size: 30px;
 }
