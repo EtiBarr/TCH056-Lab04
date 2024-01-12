@@ -196,3 +196,11 @@ img:hover{
     font-weight: bold;
 
 }
+
+.inputing:hover{
+    background-color: lightgray;
+}
+
+.orangish:hover, .greyish:hover, #clear:hover{
+    background-color:antiquewhite;
+}
