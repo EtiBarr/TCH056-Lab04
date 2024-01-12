@@ -21,7 +21,6 @@
             document.getElementById('resulta').value = y
         
             return y
-        
         }
 
                 
