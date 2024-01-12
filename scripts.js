@@ -3,7 +3,11 @@
         function affiche(val){
 
             document.getElementById('resulta').value += val
-        
+            
+            if( document.getElementById('resulta').value === "Erreur!"){
+                document.getElementById('resulta').value == '';
+            }
+
             return val
         
         }
@@ -43,8 +47,8 @@
             try{
                 eval(val);
             }catch(error){
-                let messageErreur = "Erreur";
-                affiche(messageErreur);
+                let messageErreur = "Erreur!";
+                document.getElementById('resulta').value = messageErreur;
         }
 
         }   
