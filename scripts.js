@@ -3,19 +3,19 @@
 //stollen functions ///////////////////////////////////////
         function affiche(val){
 
-            document.getElementById('result').value += val
+            document.getElementById('resulta').value += val
         
             return val
         
         }
 
-        function solve(){
+        function resoudre(){
 
-            let x = document.getElementById('result').value
+            let x = document.getElementById('resulta').value
         
             let y = eval(x);
         
-            document.getElementById('result').value = y
+            document.getElementById('resulta').value = y
         
             return y
         
@@ -23,7 +23,7 @@
         
         function clearScreen(){
 
-            document.getElementById('result').value = ''
+            document.getElementById('resulta').value = ''
         
         }
 

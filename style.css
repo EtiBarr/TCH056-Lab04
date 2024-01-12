@@ -14,12 +14,9 @@ body {
                          "c d e f"
                          "g h i j"
                          "k l m n"
-                         "o p q r"
-                         "s t t v"
-                         "s t t v"
-                         "u u u u";
+                         "o p q r";
     grid-template-columns: repeat(4, 25%);
-    grid-template-rows:  10% repeat(5, 15%);    
+    grid-template-rows:  10% repeat(4, 20%);    
     height: 75%;
     width: 75%;
     column-gap: 5px;
@@ -151,7 +148,8 @@ img:hover{
     color:white;
     font-weight: bold;
 }
-#result{
+
+#resulta{
     display: block;
     width: 100%;
     height: 100%;
