@@ -16,8 +16,8 @@ body {
                          "g h i n"
                          "k l m r"
                          "o o p q";
-    grid-template-columns: repeat(4, 25%);
-    grid-template-rows:  10% repeat(6, 16.66%);    
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows:  10% repeat(6, 100px);    
     height: 75%;
     width: 75%;
     column-gap: 5px;
@@ -26,12 +26,11 @@ body {
 
 .item { 
     display: flex;
-    background-color: lightgray;
     border: 1px solid black;
     justify-content: center;
     align-items: center;
     width: 100%;
-    border-radius: 100px;
+    border-radius: 50px;
     box-shadow: 5px black;
 }
 
